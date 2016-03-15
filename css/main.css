@@ -31,3 +31,67 @@ body {
   font-size: .875rem;
   text-align: left;
 }
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+.btn-small {
+  display: none;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.card-1 {
+  float: left;
+  max-width: 25%;
+  background-color: #e2e2e2;
+  border-left: 1px solid #333;
+}
+
+.card-2 {
+  float: left;
+  max-width: 25%;
+  background-color: #ccc;
+  border-left: 1px solid #333;
+}
+
+.card-3 {
+  float: left;
+  max-width: 25%;
+  background-color: #aaa;
+  border-left: 1px solid #333;
+}
+
+.card-4 {
+  float: left;
+  max-width: 25%;
+  background-color: #999;
+  border-right: 1px solid #333;
+}
+
+.card {
+  padding: 0 12px 70px 12px;
+  text-align: center;
+}
+
+.content {
+  text-align: left;
+}
+
+img {
+  width: 100px;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+}
+
+figure {
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
